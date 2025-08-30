@@ -15,7 +15,7 @@ export default async function handler(req, res) {
     console.log("📦 Incoming body:", req.body);
 
     const response = await fetch(
-      "https://api.socialsnowball.io/api/affiliates/segmentation/move",
+      "https://api.socialsnowball.io/ssrapi/affiliates",
       {
         method: "POST",
         headers: {
